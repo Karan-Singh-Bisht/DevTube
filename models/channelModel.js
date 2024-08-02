@@ -26,11 +26,11 @@ const channelSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
-    logoUrl: {
+    logo: {
       type: String,
       trim: true,
     },
-    bannerImageUrl: {
+    bannerImage: {
       type: String,
       trim: true,
     },

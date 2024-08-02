@@ -15,7 +15,6 @@ const subscriptionSchema = mongoose.Schema(
     mode: {
       type: String,
       enum: ["active", "inactive"],
-      default: "active",
       required: true,
     },
   },
